@@ -1,8 +1,9 @@
+import { HeroBanner } from "@/components/features/home/HeroBanner"
 
 export default function Page() {
   return (
-    <div className="flex min-h-svh p-6">
-      home page 
-    </div>
+    <>
+      <HeroBanner />
+    </>
   )
 }
