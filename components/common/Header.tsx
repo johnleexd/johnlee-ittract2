@@ -13,16 +13,23 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 z-50 h-20 backdrop-blur-lg shadow-sm flex w-full items-center justify-center gap-x-10 px-20">
       <div className="font-extrabold text-xl md:text-2xl  flex justify-start w-fit flex-1">Jumao-as</div>
-      <div className="flex lg:hidden justify-end flex-1">
+      <div className="flex lg:hidden justify-end flex-1 justify-content items-center gap-5">
         {
           isOpen ? (
-            <X onClick={ () => setIsOpen(false) }/>
+            <div className="flex gap-5 justify-content items-center">
+              <X onClick={ () => setIsOpen(false) }/>
+              <ModeToggle />
+            </div>
+            
           ) : (
-            <Menu onClick={ () => setIsOpen(true) }/>
+            <div className="flex gap-5 justify-content items-center">
+              <Menu onClick={ () => setIsOpen(true) }/>
+              <ModeToggle />
+            </div>
           ) 
         }
       </div>
-      <div className={`fixed top-20 z-40 transition-all duration-1000 transform w-full ${isOpen ? "translate-y-0 opacity-100": "-translate-y-5 opacity-0 pointer-events-none"} backdrop-blur-lg bg-gray-50/90`}>
+      <div className={`fixed top-20 z-40 transition-all duration-1000 transform w-full ${isOpen ? "translate-y-0 opacity-100": "-translate-y-5 opacity-0 pointer-events-none"} backdrop-blur-lg bg-gray-50/90 dark:bg-gray-900/90 lg:hidden flex justify-center items-center`}>
         <ul className="flex flex-col gap-7 items-center justify-center font-bold py-2">
           {
             path.map( (data, index) => (

@@ -12,10 +12,10 @@ export function RecentProject() {
                     <div className="w-fit font-extrabold text-2xl mx-5">RECENT PROJECTS</div>
                     <div className="bg-black h-[8px] w-full flex-1"></div>
                 </div>
-                <div className="flex flex-col lg:flex-row gap-10 p-10 justify-center items-center">
+                <div className="flex flex-col lg:flex-row gap-10 p-10 justify-center items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                     {
                         projectData.slice(0,3).map( (data,index) => (
-                            <Link href={data.link} key={index} target="_blank">
+                            <Link href={data.link} key={index} target="_blank" className="items-center flex justify-center">
                                 <div className="group relative w-80 size-auto aspect-square ">
                                     <Image 
                                         src={data.imageLink}

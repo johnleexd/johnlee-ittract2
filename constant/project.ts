@@ -22,4 +22,69 @@ export const projectData: project_type[] = [
         imageLink: "/foxbitch.png",
         title: "Fox image generator"
     },
+    {
+        link: "https://random-fox-image.vercel.app/",
+        imageLink: "/foxbitch.png",
+        title: "Fox image generator"
+    },
+    {
+        link: "https://random-fox-image.vercel.app/",
+        imageLink: "/foxbitch.png",
+        title: "Fox image generator"
+    },
+    {
+        link: "https://random-fox-image.vercel.app/",
+        imageLink: "/foxbitch.png",
+        title: "Fox image generator"
+    },
+    {
+        link: "https://random-fox-image.vercel.app/",
+        imageLink: "/foxbitch.png",
+        title: "Fox image generator"
+    },
+    {
+        link: "https://random-fox-image.vercel.app/",
+        imageLink: "/foxbitch.png",
+        title: "Fox image generator"
+    },
+    {
+        link: "https://random-fox-image.vercel.app/",
+        imageLink: "/foxbitch.png",
+        title: "Fox image generator"
+    },
+    {
+        link: "https://random-fox-image.vercel.app/",
+        imageLink: "/foxbitch.png",
+        title: "Fox image generator"
+    },
+    {
+        link: "https://random-fox-image.vercel.app/",
+        imageLink: "/foxbitch.png",
+        title: "Fox image generator"
+    },
+    {
+        link: "https://random-fox-image.vercel.app/",
+        imageLink: "/foxbitch.png",
+        title: "Fox image generator"
+    },
+    {
+        link: "https://random-fox-image.vercel.app/",
+        imageLink: "/foxbitch.png",
+        title: "Fox image generator"
+    },
+    {
+        link: "https://random-fox-image.vercel.app/",
+        imageLink: "/foxbitch.png",
+        title: "Fox image generator"
+    },
+    {
+        link: "https://random-fox-image.vercel.app/",
+        imageLink: "/foxbitch.png",
+        title: "Fox image generator"
+    },
+    {
+        link: "https://random-fox-image.vercel.app/",
+        imageLink: "/foxbitch.png",
+        title: "Fox image generator"
+    },
 ]
