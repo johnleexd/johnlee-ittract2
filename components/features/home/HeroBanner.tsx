@@ -1,5 +1,4 @@
 import { Section } from "@/components/common/Section";
-import Image from "next/image";
 import { MyImage } from "@/components/common/MyImage"
 
 export function HeroBanner() {
