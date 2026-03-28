@@ -2,7 +2,7 @@ import { Section } from "@/components/common/Section";
 import Image from "next/image";
 
 export function HeroBanner() {
-    return (
+    return(
         <Section>
             <div className="flex gap-5">
                 <div className="flex-2 flex flex-col gap-4 py-10">
@@ -14,8 +14,9 @@ export function HeroBanner() {
                     <Image
                         src="/myprofile.jpg"
                         alt="my profile"
+                        loading="eager"
                         fill
-                        className="object-cover rounded-lg rotate-8 hover:rotate-0 transition-all duration-500 delay-100"
+                        className="object-cover grayscale hover:grayscale-0 rounded-lg rotate-8 hover:rotate-0 transition-all duration-500 delay-100"
                     />
                 </div>
             </div>

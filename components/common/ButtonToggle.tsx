@@ -9,9 +9,13 @@ export function ModeToggle() {
   const { theme, setTheme } = useTheme()
   const [mounted, setMounted] = useState(false)
 
-  
-  useEffect(() => {
+  function Set()
+  {
     setMounted(true)
+  }
+
+  useEffect(() => {
+    Set()
   }, [])
 
   if (!mounted) return <Button variant="outline" size="icon" disabled />
