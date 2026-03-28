@@ -1,9 +1,12 @@
-
+      
+import { AboutMe } from "@/components/features/about/AboutMe"
+import { Skill } from "@/components/features/about/Skill"
 
 export default function About() {
   return (
-    <div className="flex min-h-svh p-6">
-      about page
-    </div>
+    <>
+      <AboutMe />
+      <Skill />
+    </>
   )
 }
