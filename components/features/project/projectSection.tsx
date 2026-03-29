@@ -75,9 +75,9 @@ export function ProjectSection() {
                   alt="project image"
                   loading="eager"
                   fill
-                  className="object-cover transition-all duration-2000 lg:group-hover:blur-none blur-none md:blur-sm delay-500 ease-in-out"
+                  className="object-cover transition-all duration-500 lg:group-hover:blur-none blur-none md:blur-sm delay-200 ease-in-out"
                 />
-                <p className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-extrabold text-xl text-red-500 w-full text-center lg:group-hover:hidden transition-all duration-2000 h-full items-center flex justify-center delay-500 ease-in-out hidden lg:flex">
+                <p className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-extrabold text-xl text-[#e50913] w-full text-center lg:group-hover:hidden transition-all duration-2000 h-full items-center flex justify-center delay-500 ease-in-out hidden lg:flex">
                   {data.title}
                 </p>
               </div>
