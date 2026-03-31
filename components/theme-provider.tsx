@@ -66,6 +66,6 @@ function ThemeHotkey() {
   }, [resolvedTheme, setTheme])
 
   return null
-}
+} 
 
 export { ThemeProvider }
